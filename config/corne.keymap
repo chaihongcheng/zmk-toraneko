@@ -40,7 +40,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        QWERTY {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
             // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
@@ -48,10 +48,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-   &kp TAB   &kp Q   &kp W     &kp E   &kp R      &kp T    &kp Y   &kp U      &kp I    &kp O     &kp P  &kp BSPC
- &kp LCTRL   &kp A   &kp S     &kp D   &kp F      &kp G    &kp H   &kp J      &kp K    &kp L  &kp SEMI   &kp SQT
- &kp LSHFT   &kp Z   &kp X     &kp C   &kp V      &kp B    &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH   &kp ESC
-                            &kp LGUI   &mo 1  &kp SPACE  &kp RET   &mo 2   &kp RALT
+ &trans       &kp Q         &kp W  &gqt LG(E) E    &gqt LG(R) R          &gqt LG(T) T                 &kp Y   &gqt LG(U) U             &gqt LG(I) I                      &kp O           &kp P  &trans
+ &trans  &gqt TAB A         &kp S   &gqt LALT D     &gqt LGUI F          &gqt LCTRL G           &gqt LALT H    &gqt LGUI J             &gqt LG(K) K               &gqt LG(L) L        &kp SEMI  &trans
+ &trans       &kp Z  &gqt LG(X) X  &gqt LG(C) C    &gqt LG(V) V          &gqt LG(B) B          &gqt LG(N) N          &kp M  &gqt LEFT_BRACKET COMMA  &gqt RIGHT_BRACKET PERIOD  &gqt BSLH FSLH  &trans
+                                         &trans  &kp LEFT_SHIFT  &gqt LS(ENTER) ENTER  &gqt LG(SPACE) SPACE  &kp BACKSPACE                   &trans
             >;
         };
 
