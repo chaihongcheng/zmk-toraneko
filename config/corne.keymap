@@ -20,6 +20,71 @@
             bindings = <&kp ESC>;
             key-positions = <1 2>;
         };
+
+        combo_settings {
+            bindings = <&to 1>;
+            key-positions = <38 37 29>;
+        };
+
+        combo_pp {
+            bindings = <&kp C_PP>;
+            key-positions = <5 6>;
+        };
+
+        combo_exclamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <2 3>;
+        };
+
+        combo_at_sign {
+            bindings = <&kp AT>;
+            key-positions = <3 4>;
+        };
+
+        combo_hash {
+            bindings = <&kp HASH>;
+            key-positions = <2 15>;
+        };
+
+        combo_dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <15 4>;
+        };
+
+        combo_percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <2 4>;
+        };
+
+        combo_caret {
+            bindings = <&kp CARET>;
+            key-positions = <7 9>;
+        };
+
+        combo_ampersand {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <7 20>;
+        };
+
+        combo_asterisk {
+            bindings = <&kp ASTERISK>;
+            key-positions = <20 9>;
+        };
+
+        combo_left_parenthesis {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <7 8>;
+        };
+
+        combo_right_parenthesis {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <8 9>;
+        };
+
+        new_combo {
+            bindings = <&trans>;
+            key-positions = <>;
+        };
     };
 
     behaviors {
