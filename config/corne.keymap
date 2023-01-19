@@ -280,12 +280,6 @@
             key-positions = <3 5>;
         };
 
-        combo_to2 {
-            timeout-ms = <20>;
-            bindings = <&to 2>;
-            key-positions = <40 39>;
-        };
-
         combo_emoji {
             timeout-ms = <30>;
             bindings = <&kp LG(LC(SPACE))>;
