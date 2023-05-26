@@ -217,13 +217,13 @@
         combo_cmd_left {
             timeout-ms = <35>;
             bindings = <&kp LG(LEFT)>;
-            key-positions = <2 3>;
+            key-positions = <3 1>;
         };
 
         combo_cmd_right {
             timeout-ms = <35>;
             bindings = <&kp LG(RIGHT)>;
-            key-positions = <4 3>;
+            key-positions = <3 5>;
         };
 
         combo_emoji {
@@ -235,6 +235,11 @@
         combo_macro_skmr {
             bindings = <&macro_skmr>;
             key-positions = <37 28 40 31>;
+        };
+
+        combo_asterisk {
+            bindings = <&kp KP_ASTERISK>;
+            key-positions = <20 9>;
         };
     };
 
