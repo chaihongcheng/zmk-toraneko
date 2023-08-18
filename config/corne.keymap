@@ -276,7 +276,7 @@
 &trans       &kp Q         &kp W  &gqt LG(E) E    &gqt LG(R) R          &gqt LG(T) T                 &kp Y   &gqt LG(U) U             &gqt LG(I) I                      &kp O       &gqt SQT P  &trans
 &trans  &gqt TAB A         &kp S   &gqt LALT D     &gqt LGUI F          &gqt LCTRL G           &gqt LALT H    &gqt LGUI J             &gqt LG(K) K               &gqt LG(L) L  &gqt MINUS SEMI  &trans
 &trans       &kp Z  &gqt LG(X) X  &gqt LG(C) C    &gqt LG(V) V          &gqt LG(B) B          &gqt LG(N) N          &kp M  &gqt LEFT_BRACKET COMMA  &gqt RIGHT_BRACKET PERIOD   &gqt BSLH FSLH  &trans
-                                        &trans  &kp LEFT_SHIFT  &gqt LS(ENTER) ENTER  &gqt LG(SPACE) SPACE  &kp BACKSPACE                   &trans
+                                  &kp LEFT_GUI  &kp LEFT_SHIFT  &gqt LS(ENTER) ENTER  &gqt LG(SPACE) SPACE  &kp BACKSPACE                   &trans
             >;
         };
 
