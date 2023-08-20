@@ -73,7 +73,7 @@
         combo_equal {
             timeout-ms = <25>;
             bindings = <&kp EQUAL>;
-            key-positions = <34 22>;
+            key-positions = <22 21>;
         };
 
         combo_changelang {
@@ -126,6 +126,11 @@
         combo_apostrophe {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <31 30>;
+        };
+
+        new_combo {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <34 33>;
         };
     };
 
