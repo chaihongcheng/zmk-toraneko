@@ -273,10 +273,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&trans       &kp Q         &kp W  &gqt LG(E) E    &gqt LG(R) R          &gqt LG(T) T                 &kp Y   &gqt LG(U) U             &gqt LG(I) I                      &kp O       &gqt SQT P  &trans
-&trans  &gqt TAB A         &kp S   &gqt LALT D     &gqt LGUI F          &gqt LCTRL G           &gqt LALT H    &gqt LGUI J             &gqt LG(K) K               &gqt LG(L) L  &gqt MINUS SEMI  &trans
-&trans       &kp Z  &gqt LG(X) X  &gqt LG(C) C    &gqt LG(V) V          &gqt LG(B) B          &gqt LG(N) N          &kp M  &gqt LEFT_BRACKET COMMA  &gqt RIGHT_BRACKET PERIOD   &gqt BSLH FSLH  &trans
-                                  &kp LEFT_GUI  &kp LEFT_SHIFT  &gqt LS(ENTER) ENTER  &gqt LG(SPACE) SPACE  &kp BACKSPACE                   &trans
+&trans       &kp Q         &kp W  &gqt LG(E) E    &gqt LG(R) R  &gqt LG(T) T         &kp Y  &gqt LG(U) U             &gqt LG(I) I                      &kp O       &gqt SQT P  &trans
+&trans  &gqt TAB A         &kp S         &kp D     &gqt LGUI F         &kp G         &kp H         &kp J                    &kp K                      &kp L  &gqt MINUS SEMI  &trans
+&trans       &kp Z  &gqt LG(X) X  &gqt LG(C) C    &gqt LG(V) V  &gqt LG(B) B  &gqt LG(N) N         &kp M  &gqt LEFT_BRACKET COMMA  &gqt RIGHT_BRACKET PERIOD   &gqt BSLH FSLH  &trans
+                                  &kp LEFT_GUI  &kp LEFT_SHIFT         &mo 1     &kp ENTER     &kp SPACE            &kp BACKSPACE
             >;
         };
 
@@ -288,10 +288,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans    &bt BT_CLR        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                          &trans        &trans  &trans  &trans  &trans  &trans
+&trans  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans        &kp N7  &kp NUMBER_8  &kp NUMBER_9  &trans  &trans
+&trans        &trans        &trans        &trans        &trans  &trans  &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans
+&trans    &bt BT_CLR        &trans        &trans        &trans  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
+                                          &trans        &trans  &trans  &trans        &trans        &trans
             >;
         };
 
