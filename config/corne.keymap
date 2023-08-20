@@ -28,16 +28,10 @@
             key-positions = <38 37 29>;
         };
 
-        combo_pp {
-            timeout-ms = <25>;
-            bindings = <&kp C_PP>;
-            key-positions = <5 6>;
-        };
-
         combo_left_parenthesis {
             timeout-ms = <25>;
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <7 8>;
+            key-positions = <7 6>;
         };
 
         combo_right_parenthesis {
@@ -61,109 +55,25 @@
         combo_minus {
             timeout-ms = <30>;
             bindings = <&kp MINUS>;
-            key-positions = <21 22>;
+            key-positions = <21 20>;
         };
 
         combo_plus {
             timeout-ms = <25>;
             bindings = <&kp PLUS>;
-            key-positions = <22 34>;
+            key-positions = <19 18>;
         };
 
         combo_multiply {
             timeout-ms = <25>;
             bindings = <&kp ASTERISK>;
-            key-positions = <33 22>;
+            key-positions = <32 21>;
         };
 
         combo_equal {
             timeout-ms = <25>;
             bindings = <&kp EQUAL>;
-            key-positions = <33 34>;
-        };
-
-        combo_no1 {
-            timeout-ms = <35>;
-            bindings = <&kp NUMBER_1>;
-            key-positions = <40 31>;
-        };
-
-        combo_no2 {
-            timeout-ms = <35>;
-            bindings = <&kp NUMBER_2>;
-            key-positions = <40 32>;
-        };
-
-        combo_no3 {
-            timeout-ms = <35>;
-            bindings = <&kp NUMBER_3>;
-            key-positions = <40 33>;
-        };
-
-        combo_no4 {
-            timeout-ms = <35>;
-            bindings = <&kp NUMBER_4>;
-            key-positions = <40 19>;
-        };
-
-        combo_no5 {
-            timeout-ms = <35>;
-            bindings = <&kp NUMBER_5>;
-            key-positions = <40 20>;
-        };
-
-        combo_no6 {
-            timeout-ms = <35>;
-            bindings = <&kp NUMBER_6>;
-            key-positions = <40 21>;
-        };
-
-        combo_no7 {
-            timeout-ms = <35>;
-            bindings = <&kp NUMBER_7>;
-            key-positions = <40 7>;
-        };
-
-        combo_no8 {
-            timeout-ms = <35>;
-            bindings = <&kp NUMBER_8>;
-            key-positions = <40 8>;
-        };
-
-        combo_no9 {
-            timeout-ms = <35>;
-            bindings = <&kp NUMBER_9>;
-            key-positions = <40 9>;
-        };
-
-        combo_no0 {
-            timeout-ms = <35>;
-            bindings = <&kp NUMBER_0>;
-            key-positions = <40 10>;
-        };
-
-        combo_leftspace {
-            timeout-ms = <30>;
-            bindings = <&kp LC(LEFT)>;
-            key-positions = <1 13>;
-        };
-
-        combo_rightspace {
-            timeout-ms = <30>;
-            bindings = <&kp LC(RIGHT)>;
-            key-positions = <5 17>;
-        };
-
-        combo_nexttrack {
-            timeout-ms = <30>;
-            bindings = <&kp C_NEXT>;
-            key-positions = <26 27 28>;
-        };
-
-        combo_prevtrack {
-            timeout-ms = <30>;
-            bindings = <&kp C_PREV>;
-            key-positions = <25 26 27>;
+            key-positions = <34 22>;
         };
 
         combo_changelang {
@@ -196,12 +106,6 @@
             key-positions = <15 16>;
         };
 
-        combo_spaces {
-            timeout-ms = <30>;
-            bindings = <&kp LC(UP)>;
-            key-positions = <2 4>;
-        };
-
         combo_to0 {
             timeout-ms = <20>;
             bindings = <&to 0>;
@@ -214,27 +118,14 @@
             key-positions = <1 25 10 34>;
         };
 
-        combo_cmd_left {
-            timeout-ms = <35>;
-            bindings = <&kp LG(LEFT)>;
-            key-positions = <3 1>;
+        combo_doublequote {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <33 32>;
         };
 
-        combo_cmd_right {
-            timeout-ms = <35>;
-            bindings = <&kp LG(RIGHT)>;
-            key-positions = <3 5>;
-        };
-
-        combo_emoji {
-            timeout-ms = <30>;
-            bindings = <&kp LG(LC(SPACE))>;
-            key-positions = <4 5 6 7>;
-        };
-
-        combo_macro_skmr {
-            bindings = <&macro_skmr>;
-            key-positions = <37 28 40 31>;
+        combo_apostrophe {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <31 30>;
         };
     };
 
