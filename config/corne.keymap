@@ -128,7 +128,7 @@
             key-positions = <31 30>;
         };
 
-        new_combo {
+        combo_exclamation {
             bindings = <&kp EXCLAMATION>;
             key-positions = <34 33>;
         };
