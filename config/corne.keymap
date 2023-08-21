@@ -135,7 +135,7 @@
 
         combo_question {
             bindings = <&kp QUESTION>;
-            key-positions = <34 21>;
+            key-positions = <9 10>;
         };
 
         combo_zoomin {
